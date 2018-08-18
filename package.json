@@ -2,7 +2,6 @@
   "name": "contactmanager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://johnKHill.github.io/contactmanager_redux",
   "dependencies": {
     "ajv": "^6.5.3",
     "axios": "^0.18.0",
@@ -21,7 +20,6 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
