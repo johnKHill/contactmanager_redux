@@ -2,7 +2,7 @@
   "name": "contactmanager",
   "version": "0.1.0",
   "private": true,
-  "home": "https://johnKHill.github.io/contactmanager_redux",
+  "homepage": "https://johnKHill.github.io/contactmanager_redux",
   "dependencies": {
     "ajv": "^6.5.3",
     "axios": "^0.18.0",
