@@ -35,7 +35,7 @@ class AddContact extends Component {
     }
 
     const newContact = {
-      id: 'uuid()',
+      id: uuid(),
       name,
       email,
       phone
@@ -106,4 +106,4 @@ AddContact.propTypes = {
   addContact: PropTypes.func.isRequired
 }
 
-export default connect(null, {addContact})(AddContact);
+export default connect(null, { addContact })(AddContact);

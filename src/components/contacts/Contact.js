@@ -63,4 +63,4 @@ Contact.propTypes = {
   deleteContact: PropTypes.func.isRequired
 };
 
-export default connect(null, { deleteContact})(Contact);
+export default connect(null, { deleteContact })(Contact);
